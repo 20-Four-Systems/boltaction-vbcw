@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="e6c7-cbe2-ee28-5c26" name="VBCW - Right Wing and Reactionary Forces" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="0f4f-1779-739d-5274" name="KK&apos;s Bolt Action VBCW - Right Wing and Reactionary Forces"/>
+    <publication id="0f4f-1779-739d-5274" name="KK&apos;s BA VBCW - Right Wing and Reactionary Forces"/>
+    <publication id="5ff2-e8bd-dabf-359b" name="1938 A Very British Civil War - The Concise Source Book" shortName="VBCW - Concise Source Book"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="25cb-dd38-c9c1-7788" name="Army Faction" hidden="false" collective="false" import="true" type="upgrade">
@@ -102,7 +103,7 @@
     <entryLink id="4fb4-9c49-c4dc-6e9e" name="Partisan Squad (Early War)" hidden="true" collective="false" import="true" targetId="e90e-8286-1bf3-a83c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false"/>
-        <modifier type="set" field="name" value="Auxilliary Constabulary Squad"/>
+        <modifier type="set" field="name" value="Auxilliary Constabulary Squad (Early War)"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="77c4-3d6c-7577-847b" name="New CategoryLink" hidden="false" targetId="f543-f483-48ce-9b05" primary="true"/>
@@ -111,7 +112,7 @@
     <entryLink id="f6c1-3529-815c-97a4" name="Partisan Squad (Early War)" hidden="true" collective="false" import="true" targetId="e90e-8286-1bf3-a83c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false"/>
-        <modifier type="set" field="name" value="Auxilliary Constabulary Squad"/>
+        <modifier type="set" field="name" value="Auxilliary Constabulary Squad (Early War)"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="d836-e80e-5798-6cba" name="New CategoryLink" hidden="false" targetId="f543-f483-48ce-9b05" primary="false"/>
@@ -160,7 +161,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a66-854a-7d70-b897" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a66-854a-7d70-b897" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -173,7 +174,7 @@
     <entryLink id="2348-6fb2-6db4-f940" name="Chaplain" hidden="true" collective="false" import="true" targetId="b035-5e30-c227-4730" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false"/>
-        <modifier type="set" field="name" value="Party Commissar"/>
+        <modifier type="set" field="name" value="Commissar"/>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7644-26cd-f39f-ab6e" type="max"/>
@@ -189,12 +190,12 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a66-854a-7d70-b897" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a66-854a-7d70-b897" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="name" value="Provisional Infantry Section (Early War)"/>
+        <modifier type="set" field="name" value="Provisional Legionary Section (Early War)"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="22a7-169d-2892-e849" name="New CategoryLink" hidden="false" targetId="f543-f483-48ce-9b05" primary="true"/>
@@ -206,12 +207,12 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a66-854a-7d70-b897" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a66-854a-7d70-b897" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="name" value="Provisional Infantry Section (Early War)"/>
+        <modifier type="set" field="name" value="Provisional Legionary Section (Early War)"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="4a19-c757-8101-deb0" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -258,7 +259,7 @@
     <entryLink id="3973-8915-3750-151d" name="Partisan Cavalry Squad" hidden="true" collective="false" import="true" targetId="4b3d-011f-2010-a964" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false"/>
-        <modifier type="set" field="name" value="Mounted Constabulary Cavalry"/>
+        <modifier type="set" field="name" value="Mounted Auxilliary Constabulary"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="9d9d-81ee-59f7-44a9" name="New CategoryLink" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -268,29 +269,10 @@
     <entryLink id="2bfd-3736-bcf2-e43a" name="Partisan Officer" hidden="true" collective="false" import="true" targetId="a5e6-7235-b78a-2380" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false"/>
-        <modifier type="set" field="name" value="Party Officer"/>
+        <modifier type="set" field="name" value="Auxilliary Officer"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="47a1-010d-56ce-9e50" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9858-4b32-0eae-228c" name="Inexperienced Partisan Squad" hidden="true" collective="false" import="true" targetId="6b8b-6057-bdad-ccae" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false"/>
-        <modifier type="set" field="name" value="Auxilliary Constabulary Squad"/>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="59c7-459a-506e-47ec" name="New CategoryLink" hidden="false" targetId="f543-f483-48ce-9b05" primary="true"/>
-        <categoryLink id="0846-f067-f8ac-43ee" name="New CategoryLink" hidden="false" targetId="f543-f483-48ce-9b05" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="11d9-0bb8-5526-1c96" name="Inexperienced Partisan Squad" hidden="true" collective="false" import="true" targetId="6b8b-6057-bdad-ccae" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false"/>
-        <modifier type="set" field="name" value="Auxilliary Constabulary Squad"/>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="792e-1ef3-fbad-69ec" name="New CategoryLink" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6c77-3806-30de-c604" name="Morris CS9 Armoured Car" hidden="true" collective="false" import="true" targetId="67420d8e-9d1d-3889-2507-220c8c51ff2e" type="selectionEntry">
@@ -331,6 +313,45 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="482b-5bc8-ab0d-b50c" name="New CategoryLink" hidden="false" targetId="f543-f483-48ce-9b05" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a9b3-a515-4651-7e4d" name="General-purpose Truck" hidden="true" collective="false" import="true" targetId="b35a-295d-39a6-b95c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="5a82-8c0e-d8e0-e3a6" name="New CategoryLink" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true"/>
+        <categoryLink id="eb3a-29dd-4e03-7eab" name="New CategoryLink" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9ee3-244a-0a82-a914" name="Medic Team" hidden="true" collective="false" import="true" targetId="42c61ab4-be14-9ac0-4696-a0421404015d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f7-115d-62d8-dd23" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a9c8-b906-30aa-3399" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="815e-1d29-3c9e-b2cf" name="Horse-drawn Limber" hidden="true" collective="false" import="true" targetId="a7f1-cb3e-6a39-710e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9c9a-05f3-2033-c4ef" name="New CategoryLink" hidden="false" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bf7c-ee8c-b26b-df03" name="Sniper Team" hidden="true" collective="false" import="true" targetId="12864fb9-fa92-2a22-fba8-403ddceb1361" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ca-b1b0-de37-068a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3e72-dbd3-6781-34e3" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -374,7 +395,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="89f8-dc8c-5468-a4ef" name="The British Fascisti" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="89f8-dc8c-5468-a4ef" name="British Fascisti" page="" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="9e21-8166-4177-767e" name="Tsarist Émigrés" hidden="false" targetId="3a9f-3243-11c6-9892" type="rule"/>
           </infoLinks>
@@ -398,7 +419,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="932c-76ae-b42e-fd86" name="The English Mistery" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="932c-76ae-b42e-fd86" name="English Array" page="" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="c734-f4d5-078d-f30b" name="Seized Armaments" hidden="false" targetId="54ad-d747-b833-d9db" type="rule"/>
           </infoLinks>
@@ -417,9 +438,12 @@
         <categoryLink id="2eec-15d8-5471-94de" name="New CategoryLink" hidden="false" targetId="2ddc-c371-7e08-928b" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6a66-854a-7d70-b897" name="1937-38: The Christmas Truce..?" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6a66-854a-7d70-b897" name="1937-38: The Christmas Truce" publicationId="0f4f-1779-739d-5274" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
           <profiles>
-            <profile id="f64a-c6d2-ac6b-20b3" name="1937-38: The Christmas Truce..?" publicationId="0f4f-1779-739d-5274" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
+            <profile id="f64a-c6d2-ac6b-20b3" name="1937-38: The Christmas Truce" publicationId="0f4f-1779-739d-5274" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -429,13 +453,13 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="a20c-fa8e-25f7-8357" name="Auxiliary Constabularies" publicationId="0f4f-1779-739d-5274" hidden="false">
-      <description>All Inexperienced Partisan Squads gain a +1 penalty when rolling Morale tests. You must bring at least one Inexperienced Partisan Squad.</description>
+    <rule id="a20c-fa8e-25f7-8357" name="Auxiliary Constabularies" publicationId="5ff2-e8bd-dabf-359b" page="y" hidden="false">
+      <description>You must bring at least one Partisan Squad unit.</description>
     </rule>
     <rule id="3a9f-3243-11c6-9892" name="Tsarist Émigrés" publicationId="0f4f-1779-739d-5274" hidden="false">
       <description>May bring one White Russian (Soviet Union) unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
-    <rule id="75cf-1cbf-1bf4-1799" name="Industrial Mobilisation" publicationId="0f4f-1779-739d-5274" hidden="false">
+    <rule id="75cf-1cbf-1bf4-1799" name="Industrial Mobilisation" publicationId="5ff2-e8bd-dabf-359b" page="7" hidden="false">
       <description>All Vehicle units gain an additional 3&quot; when advancing or running.</description>
     </rule>
     <rule id="6f76-6aa2-af60-7de8" name="Steel Pact" publicationId="0f4f-1779-739d-5274" hidden="false">
@@ -445,7 +469,7 @@
       <description>May bring one Italian or Spanish unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
     <rule id="54ad-d747-b833-d9db" name="Seized Armaments" publicationId="0f4f-1779-739d-5274" hidden="false">
-      <description>All Partisan Infantry units (Partisan Squads and Partisan Cavalry Squads) gain +1 hit for every 6 models.</description>
+      <description>All Partisan Squad and Partisan Cavalry Squad units gain +1 Hit for every 6 models.</description>
     </rule>
     <rule id="a080-24b7-553b-398b" name="Fanatic Vanguard" publicationId="0f4f-1779-739d-5274" hidden="false">
       <description>All Regular and Veteran units gain the Fanatics special rule.</description>
