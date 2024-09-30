@@ -411,9 +411,9 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2aa1-c900-690d-ba55" name="Reactionary Partisans" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2aa1-c900-690d-ba55" name="Order of the Martyrs" page="" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="73df-a07e-3192-6d5f" name="Seized Armaments" hidden="false" targetId="54ad-d747-b833-d9db" type="rule"/>
+            <infoLink id="73df-a07e-3192-6d5f" name="Mediterranean Assistance" hidden="false" targetId="50d1-f1ee-dd08-c74c" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -469,7 +469,7 @@
       <description>May bring one Italian or Spanish unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
     <rule id="54ad-d747-b833-d9db" name="Seized Armaments" publicationId="0f4f-1779-739d-5274" hidden="false">
-      <description>All Partisan Squad and Partisan Cavalry Squad units gain +1 Hit for every 6 models.</description>
+      <description>All Inexperienced and Regular units gain +1 Hit for every 5 models.</description>
     </rule>
     <rule id="a080-24b7-553b-398b" name="Fanatic Vanguard" publicationId="0f4f-1779-739d-5274" hidden="false">
       <description>All Regular and Veteran units gain the Fanatics special rule.</description>
