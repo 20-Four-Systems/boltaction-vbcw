@@ -291,6 +291,17 @@
         <categoryLink id="9b35-092e-79da-a849" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="35de-89e2-b282-77fc" name="Gurkha Section" hidden="true" collective="false" import="true" targetId="43f92c65-3912-1f3a-e5f9-ce5d9809cd6b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b221-7507-132e-38f4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="65de-74bd-4441-c2c8" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <infoLinks>
     <infoLink id="f5b6-b417-cf76-1354" name="A Divided Army" hidden="true" targetId="0945-6617-cd18-a7bf" type="rule">
@@ -324,7 +335,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1845-3212-ce50-52f0" name="West Midlands Division" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1845-3212-ce50-52f0" name="Eastern England Division" page="" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="2819-ff79-0022-b429" name="Independent Irregulars" hidden="false" targetId="da54-54a1-bfb5-738d" type="rule"/>
           </infoLinks>
