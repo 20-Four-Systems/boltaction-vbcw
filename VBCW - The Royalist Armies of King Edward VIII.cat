@@ -455,11 +455,11 @@
     <rule id="f2fa-6dbb-86ba-da6f" name="Cavalry Élan" hidden="false">
       <description>All Cavalry units gain an additional 3&quot; when advancing or running.</description>
     </rule>
-    <rule id="99bd-342e-414b-6aff" name="Continental Connections" hidden="false">
+    <rule id="99bd-342e-414b-6aff" name="Axis Connections" hidden="false">
       <description>May bring one German unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
-    <rule id="4b9c-fd31-f865-6f51" name="Royal Artillery Corps" hidden="false">
-      <description>You may re-roll to Hit die of 1’s when firing Artillery units.</description>
+    <rule id="4b9c-fd31-f865-6f51" name="Royal Corps of Signals" hidden="false">
+      <description>You may, at the start of the game and after deployment, move all units up to 3&quot; toward any opponent.</description>
     </rule>
     <rule id="da54-54a1-bfb5-738d" name="Independent Irregulars" hidden="false">
       <description>May bring one additional Partisan Squad unit. Does not contribute to platoon Infantry limits.</description>
