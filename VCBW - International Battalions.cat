@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="dab4-abed-1e1d-7931" name="VCBW - International Battalions" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="4bf1-0f89-888d-f5e2" name="KK&apos;s BA VBCW - International Brigades"/>
+    <publication id="b7a2-a8a1-a5ca-641b" name="1938 A Very British Civil War - The Concise Source Book"/>
+  </publications>
+  <infoLinks>
+    <infoLink id="c29e-67f0-29b7-dd0a" name="Limited Capacity" hidden="true" targetId="4e2e-66cb-c922-9678" type="rule">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+    </infoLink>
+  </infoLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="604c-9fc9-0d97-ae97" name="Army Faction" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f87-a39f-aa0a-386e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18eb-5a31-9856-0002" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="afe7-e79f-0f5f-5c97" name="International Brigades" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="7a17-edda-230b-3be3" name="Revolutionaries" hidden="false" targetId="3f7b-bfd7-5312-17ea" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7d87-dbc5-2137-9780" name="Freedom Corps" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="9b3c-9255-ce05-d82c" name="Limited Capacity" hidden="false" targetId="4e2e-66cb-c922-9678" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c4b4-a10f-08da-9b36" name="Foreign Legions" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="5758-ee22-815e-9b85" name="Reactionary Convictions" hidden="false" targetId="a381-9261-621b-22cf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cf81-a5c8-32ae-f594" name="Threatre Selector" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f15-434f-9281-de4e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b6f-52c1-c7e0-fce8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5f1c-22ce-ae75-f507" name="New CategoryLink" hidden="false" targetId="2ddc-c371-7e08-928b" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0364-a8c5-10f5-be01" name="1937-38: The Christmas Truce" publicationId="4bf1-0f89-888d-f5e2" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+          <profiles>
+            <profile id="ca44-2bb5-3149-6097" name="1937-38: The Christmas Truce" publicationId="4bf1-0f89-888d-f5e2" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="4e2e-66cb-c922-9678" name="Limited Capacity" hidden="false">
+      <description>Total point limit is reduced by 20%.</description>
+    </rule>
+    <rule id="3f7b-bfd7-5312-17ea" name="Revolutionary Ideals" hidden="false">
+      <description>You must choose one of the following armies lists to field units from: China, The Soviet Union, Partisans. Units do not follow any rules from their host army rulebook.</description>
+    </rule>
+    <rule id="968f-39f5-bd53-e084" name="Democratic Principles" hidden="false">
+      <description>You must choose one of the following armies lists to field units from: Australia, Belgium, Canada, Denmark, France, Greece, India, New Zealand, Norway, Poland, South Africa, The Netherlands, The United States. Units do not follow any rules from their host army rulebook.</description>
+    </rule>
+    <rule id="a381-9261-621b-22cf" name="Reactionary Convictions" hidden="false">
+      <description>You must choose one of the following armies lists to field units from: Bulgaria, Finland, Hungary, Germany, Italy, Japan, Romania, Slovakia. Units do not follow any rules from their host army rulebook.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
