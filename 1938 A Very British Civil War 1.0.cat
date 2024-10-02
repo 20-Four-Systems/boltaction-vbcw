@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5e86-d4b4-7e2e-5eab" name="1938 A Very British Civil War 1.0" revision="1" battleScribeVersion="2.03" authorName="KabelKabal" library="true" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="bf11-43c1-e274-aacf" name="1938 A Very British Civil War - The Concise Source Book"/>
+    <publication id="d408-e2c7-f6fd-7fac" name="KabelKabal&apos;s Bolt Action AVBCW - A Complete Timeline" shortName="KK&apos;s Bolt Action AVBCW - A Complete Timeline" publisher="GitHub" publisherUrl="https://github.com/KabelKabal/boltaction-vbcw"/>
+    <publication id="1eb7-b90e-f404-fa9a" name="A Very British Civil War - Hearts of Iron IV Steam Workshop"/>
+  </publications>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="e8da-2dc0-9ff9-2b63" name="Threatre Selector" hidden="false" collective="false" import="true" defaultSelectionEntryId="c470-5e22-f03b-c5a8">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d626-ec55-e316-a472" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9100-191f-503c-b4b8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e4f0-f9af-7509-9959" name="New CategoryLink" hidden="false" targetId="2ddc-c371-7e08-928b" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="88ca-de13-e87a-7fa3" name="1937: The Christmas Truce" publicationId="bf11-43c1-e274-aacf" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+          <profiles>
+            <profile id="e792-6a5e-e669-975c" name="1937: The Christmas Truce" publicationId="bf11-43c1-e274-aacf" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c470-5e22-f03b-c5a8" name="1938: The Very British Civil War" publicationId="bf11-43c1-e274-aacf" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+          <profiles>
+            <profile id="8472-0f62-271e-04b9" name="1938: The Very British Civil War" publicationId="bf11-43c1-e274-aacf" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
