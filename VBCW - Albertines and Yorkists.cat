@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="3873-be2b-1adf-cda3" name="VBCW - Albertines and Yorkists" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="340c-3e49-8875-41c9" name="1938 A Very British Civil War - The Concise Source Book"/>
-    <publication id="235a-880b-00fe-1a35" name="KK&apos;s BA VBCW - Right Wing and Reactionary Forces"/>
-  </publications>
   <selectionEntries>
     <selectionEntry id="35a4-b887-c588-afef" name="Army Faction" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -63,7 +59,7 @@
         <categoryLink id="3e67-3694-d792-3040" name="New CategoryLink" hidden="false" targetId="2ddc-c371-7e08-928b" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7a98-a2db-f02c-759d" name="Threatre Selector" hidden="false" collective="false" import="true" targetId="16f0-a12a-0a82-1a8f" type="selectionEntryGroup">
+        <entryLink id="7a98-a2db-f02c-759d" name="Threatre Selector" hidden="false" collective="false" import="true" targetId="e8da-2dc0-9ff9-2b63" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e78a-3ece-d97b-a263" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b88f-347e-0c65-c4d2" type="min"/>
@@ -313,29 +309,7 @@
     </infoLink>
   </infoLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="16f0-a12a-0a82-1a8f" name="Threatre Selector" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d6e-479d-35d4-57e7" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf9-f58f-1543-33b9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="40e5-9bb6-c9ee-b18b" name="New CategoryLink" hidden="false" targetId="2ddc-c371-7e08-928b" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="949e-b17a-3abc-273d" name="1937-38: The Christmas Truce" publicationId="235a-880b-00fe-1a35" hidden="true" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false"/>
-          </modifiers>
-          <profiles>
-            <profile id="5763-c361-3407-ad95" name="1937-38: The Christmas Truce" publicationId="235a-880b-00fe-1a35" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ba4e-fb36-3f31-f3f5" name="Army Faction" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ba4e-fb36-3f31-f3f5" name="Army Faction" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff2e-13aa-02ce-01d5">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c450-4acf-3387-1fae" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ee-8e93-c5c1-0b68" type="max"/>
@@ -393,30 +367,31 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="ee9e-99f0-88b9-7a86" name="A Divided Army" hidden="false">
+    <rule id="ee9e-99f0-88b9-7a86" name="A Divided Army" publicationId="bf11-43c1-e274-aacf" hidden="false">
       <description>Roll a D6 at the start of the game and after deployment. On a 3 or lower, your opponent may choose to put one of your units in to reserve. You may bring them out of reserve at the start of the second turn.</description>
     </rule>
-    <rule id="a14b-a78e-6357-820a" name="York Artillery Corps" hidden="false">
+    <rule id="a14b-a78e-6357-820a" name="York Artillery Corps" publicationId="d408-e2c7-f6fd-7fac" hidden="false">
       <description>You may re-roll to Hit die of 1’s when firing Artillery units.</description>
     </rule>
-    <rule id="2170-37ac-2477-da93" name="Confectionary Surplus" hidden="false">
+    <rule id="2170-37ac-2477-da93" name="Confectionary Surplus" publicationId="d408-e2c7-f6fd-7fac" hidden="false">
       <description>Rally orders gain an additional +1 when rolled for.</description>
     </rule>
-    <rule id="854d-081c-265c-0b82" name="&quot;Pack it in, lads!&quot;" hidden="false">
+    <rule id="854d-081c-265c-0b82" name="&quot;Pack it in, lads!&quot;" publicationId="d408-e2c7-f6fd-7fac" hidden="false">
       <description>All Vehicle units with transport capability gain an additional 2 model capacity.</description>
     </rule>
-    <rule id="f287-24f8-b6ad-413d" name="City Defenders" hidden="false">
+    <rule id="f287-24f8-b6ad-413d" name="City Defenders" publicationId="d408-e2c7-f6fd-7fac" hidden="false">
       <description>All units gain an additional +1 to Hard Cover if they did not advance or run during the last game turn. Must be in Hard Cover to benefit from this.</description>
     </rule>
-    <rule id="acc3-5098-3708-9c38" name="Canadian Friends" hidden="false">
+    <rule id="acc3-5098-3708-9c38" name="Canadian Friends" publicationId="bf11-43c1-e274-aacf" hidden="false">
       <description>May bring one Canadian unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
-    <rule id="20d3-d400-cfcd-735c" name="Naval Engineering" hidden="false">
+    <rule id="20d3-d400-cfcd-735c" name="Naval Engineering" publicationId="bf11-43c1-e274-aacf" hidden="false">
       <description>When a Vehicle unit is Immobilised, you may elect for it to instead be treated as a Crew Stunned result.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
     <catalogueLink id="943d-0397-bbbd-f35b" name="Armies of Great Britain" targetId="b7ca-1350-985e-0bff" type="catalogue" importRootEntries="false"/>
     <catalogueLink id="2513-8d9b-d7ea-57b0" name="Partisans" targetId="fe01-7aad-b334-12c2" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="fc64-68f1-80f7-46ea" name="1938 A Very British Civil War 1.0" targetId="5e86-d4b4-7e2e-5eab" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
