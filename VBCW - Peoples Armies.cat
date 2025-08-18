@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="eb04-a4d6-f227-2e6d" name="VBCW - Peoples Armies" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="eb04-a4d6-f227-2e6d" name="VBCW - Peoples Armies" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="1938 A Very British Civil War 1.0" id="efa3-bc68-ad56-2c77" targetId="5e86-d4b4-7e2e-5eab" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Armies of Great Britain" id="c175-9b57-4671-4137" targetId="b7ca-1350-985e-0bff" importRootEntries="false"/>
@@ -22,7 +22,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="ILP/Workers Army" hidden="false" id="3364-1bb4-9393-ca08" collective="false">
           <infoLinks>
-            <infoLink name="Defensive Tactics" id="8f80-3ae3-07d4-1841" hidden="false" targetId="59e3-c929-b74f-c20d" type="rule"/>
+            <infoLink name="Defensive Tactics" id="2e6f-00f4-2780-8990" hidden="false" targetId="59e3-c929-b74f-c20d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -30,7 +30,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="TUC/Workers Defence Corps" hidden="false" id="9cb7-847b-76c4-9028" collective="false">
           <infoLinks>
-            <infoLink name="Defensive Tactics" id="cc01-5e7a-55cd-627f" hidden="false" targetId="59e3-c929-b74f-c20d" type="rule"/>
+            <infoLink name="Solidarity" id="4590-071f-b621-16df" hidden="false" targetId="56cc-014e-acf6-b913" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -46,7 +46,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="TUC/Trade Unions" hidden="false" id="7c2a-41c9-69bf-fc78" collective="false">
           <infoLinks>
-            <infoLink name="Defensive Tactics" id="8984-ca59-7150-71c4" hidden="false" targetId="59e3-c929-b74f-c20d" type="rule"/>
+            <infoLink name="Solidarity" id="66e1-f6ae-a9fb-2792" hidden="false" targetId="56cc-014e-acf6-b913" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -54,7 +54,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Peoples Assault Brigades" hidden="false" id="6dcd-50da-ee82-5784" collective="false">
           <infoLinks>
-            <infoLink name="Comintern &quot;Friends&quot;" id="cac5-bcdb-b359-dab6" hidden="false" targetId="94ee-bfa8-155e-0322" type="rule"/>
+            <infoLink name="Soviet Reinforcement" id="cac5-bcdb-b359-dab6" hidden="false" targetId="94ee-bfa8-155e-0322" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -65,24 +65,32 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Solidarity" id="56cc-014e-acf6-b913" hidden="false">
-      <description>May bring one additional Partisan Squad unit. Does not contribute to platoon Infantry limits.</description>
+      <description>The platoon may include one additional Partisan Squad unit. This unit does not count towards the platoon&apos;s infantry unit limit.</description>
     </rule>
     <rule name="Poorly Equipped" id="9e34-27ae-a25a-b662" hidden="false">
-      <description>All Vehicle and Artillery units can not be taken above Inexperienced quality.</description>
+      <description>All Vehicle and Artillery units may only be taken at Inexperienced quality.</description>
     </rule>
     <rule name="Common Struggle" id="2992-a3d2-423e-fe05" hidden="false">
-      <description>Gain a +1 to Hit when targeting a BUF and Royalist unit.</description>
+      <description>When a unit targets a British Union of Fascists (BUF) or Royalist unit, it gains a +1 bonus to its roll to Hit.</description>
     </rule>
-    <rule name="Defensive Tactics" id="59e3-c929-b74f-c20d" hidden="false"/>
-    <rule name="Soviet Reinforcement" id="94ee-bfa8-155e-0322" hidden="false"/>
-    <rule name="Reckless Assault" id="b121-3238-e460-350a" hidden="false"/>
+    <rule name="Defensive Tactics" id="59e3-c929-b74f-c20d" hidden="false">
+      <description>Infantry units gain an extra Hit die if they did not run or advance during the last turn.</description>
+    </rule>
+    <rule name="Soviet Reinforcement" id="94ee-bfa8-155e-0322" hidden="false">
+      <description>May bring one Soviet Union unit. That unit exclusively follows its own armies rules and point costs.</description>
+    </rule>
+    <rule name="Reckless Assault" id="b121-3238-e460-350a" hidden="false">
+      <description>Infantry units gain an extra Hit die if they advanced during the last turn.</description>
+    </rule>
     <rule name="Lay of the Land" id="43e0-9b61-d228-2f62" hidden="false">
-      <description>Units in this platoon do not suffer the -1 penalty for attempting to come onto the table as reserves.</description>
+      <description>Units within this platoon do not suffer the -1 penalty when attempting to arrive on the table as a reserve unit.</description>
     </rule>
-    <rule name="Party Oversight" id="1fb7-9d61-0640-16f6" hidden="false"/>
+    <rule name="Party Oversight" id="1fb7-9d61-0640-16f6" hidden="false">
+      <description>The platoon may include a Commissar unit at no points cost.</description>
+    </rule>
   </sharedRules>
   <infoLinks>
-    <infoLink name="Lay of the Land" id="39e3-467b-aa74-6724" hidden="false" type="rule" targetId="2992-a3d2-423e-fe05"/>
+    <infoLink name="Common Struggle" id="39e3-467b-aa74-6724" hidden="false" type="rule" targetId="2992-a3d2-423e-fe05"/>
     <infoLink name="Poorly Equipped" id="ad07-dd17-1183-c7a0" hidden="false" type="rule" targetId="9e34-27ae-a25a-b662"/>
     <infoLink name="Lay of the Land" id="169f-4a81-d548-9d31" hidden="false" type="rule" targetId="43e0-9b61-d228-2f62"/>
   </infoLinks>
@@ -161,24 +169,7 @@
     <entryLink import="true" name="Chaplain" hidden="true" id="dd71-8463-1171-a722" collective="false" targetId="b035-5e30-c227-4730" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden"/>
-        <modifier type="set" value="Commissar" field="name">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="6dcd-50da-ee82-5784" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="Commissar" field="name">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="34e4-36cc-8458-5bca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
+        <modifier type="set" value="Commissar" field="name"/>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ccc7-b33c-41a3-5c92" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -286,6 +277,7 @@
     <entryLink import="true" name="Partisan Cavalry Squad" hidden="true" id="2870-f9c8-b514-c519" collective="false" targetId="4b3d-011f-2010-a964" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden"/>
+        <modifier type="set" value="Mounted Peoples Militia" field="name"/>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="6944-a6f7-f48c-df9f" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -295,6 +287,7 @@
     <entryLink import="true" name="Partisan Officer" hidden="true" id="23d1-d170-ced5-3066" collective="false" targetId="a5e6-7235-b78a-2380" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden"/>
+        <modifier type="set" value="Comrade-Lieutenant" field="name"/>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Headquarters" hidden="false" id="33d1-4658-ab89-0993" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -303,6 +296,7 @@
     <entryLink import="true" name="Partisan Squad (Early War)" hidden="true" id="7102-f667-4773-0c71" collective="false" targetId="e90e-8286-1bf3-a83c" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden"/>
+        <modifier type="set" value="Peoples Militia" field="name"/>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Compulsory Units" hidden="false" id="af37-87ab-3175-00d6" targetId="f543-f483-48ce-9b05" primary="true"/>
@@ -311,6 +305,7 @@
     <entryLink import="true" name="Partisan Squad (Early War)" hidden="true" id="9475-a620-4e63-e39a" collective="false" targetId="e90e-8286-1bf3-a83c" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden"/>
+        <modifier type="set" value="Peoples Militia" field="name"/>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Compulsory Units" hidden="false" id="2100-e1cd-99ad-1810" targetId="f543-f483-48ce-9b05" primary="false"/>
