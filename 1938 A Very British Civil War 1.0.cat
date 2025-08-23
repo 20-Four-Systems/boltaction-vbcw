@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e86-d4b4-7e2e-5eab" name="1938 A Very British Civil War 1.0" revision="1" battleScribeVersion="2.03" authorName="KabelKabal" library="true" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5e86-d4b4-7e2e-5eab" name="1938 A Very British Civil War 1.0" revision="2" battleScribeVersion="2.03" authorName="KabelKabal" library="true" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="bf11-43c1-e274-aacf" name="1938 A Very British Civil War - The Concise Source Book"/>
     <publication id="d408-e2c7-f6fd-7fac" name="KabelKabal&apos;s Bolt Action AVBCW - A Complete Timeline" shortName="KK&apos;s Bolt Action AVBCW - A Complete Timeline" publisher="GitHub" publisherUrl="https://github.com/KabelKabal/boltaction-vbcw"/>
@@ -8,11 +8,11 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e8da-2dc0-9ff9-2b63" name="Threatre Selector" hidden="false" collective="false" import="true" defaultSelectionEntryId="c470-5e22-f03b-c5a8">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d626-ec55-e316-a472" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9100-191f-503c-b4b8" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d626-ec55-e316-a472" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9100-191f-503c-b4b8" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="e4f0-f9af-7509-9959" name="New CategoryLink" hidden="false" targetId="2ddc-c371-7e08-928b" primary="true"/>
+        <categoryLink id="e4f0-f9af-7509-9959" name="Theatre Selector and Utility" hidden="false" targetId="2ddc-c371-7e08-928b" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="88ca-de13-e87a-7fa3" name="1937: The Christmas Truce" publicationId="bf11-43c1-e274-aacf" hidden="true" collective="false" import="true" type="upgrade">
@@ -23,7 +23,7 @@
             <profile id="e792-6a5e-e669-975c" name="1937: The Christmas Truce" publicationId="bf11-43c1-e274-aacf" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c470-5e22-f03b-c5a8" name="1938: The Very British Civil War" publicationId="bf11-43c1-e274-aacf" hidden="true" collective="false" import="true" type="upgrade">
@@ -34,10 +34,46 @@
             <profile id="8472-0f62-271e-04b9" name="1938: The Very British Civil War" publicationId="bf11-43c1-e274-aacf" hidden="false" typeId="29d7-8cbd-50b1-14d1" typeName="Reference Profile"/>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="Mediterranean Assistance" id="50d1-f1ee-dd08-c74c" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>May bring one Italian or Spanish unit. That unit exclusively follows its own armies rules and point costs.</description>
+    </rule>
+    <rule name="Seized Armaments" id="54ad-d747-b833-d9db" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
+      <description>All Inexperienced and Regular units gain +1 Hit for every 5 models.</description>
+    </rule>
+    <rule name="Steel Pact" id="6f76-6aa2-af60-7de8" hidden="false" publicationId="1eb7-b90e-f404-fa9a">
+      <description>May bring one German unit. That unit exclusively follows its own armies rules and point costs.</description>
+    </rule>
+    <rule name="Tsarist Émigrés" id="3a9f-3243-11c6-9892" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>May bring one White Russian (Soviet Union) unit. That unit exclusively follows its own armies rules and point costs.</description>
+    </rule>
+    <rule name="Auxiliary Constabularies" id="a20c-fa8e-25f7-8357" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>You must bring at least one Partisan Squad unit.</description>
+    </rule>
+    <rule name="Fanatic Vanguard" id="a080-24b7-553b-398b" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
+      <description>All Regular and Veteran units gain the Fanatics special rule.</description>
+    </rule>
+    <rule name="Industrial Mobilisation" id="75cf-1cbf-1bf4-1799" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>All Vehicle units gain an additional 3&quot; when advancing or running.</description>
+    </rule>
+    <rule name="Dedicated Leadership" id="9a90-510c-de90-c2e1" hidden="false">
+      <description>Officers generate a +1 morale bonus, but suffer a +1 cover save.</description>
+    </rule>
+    <rule name="A Very British Civil War" id="82be-3a7f-6bd1-d96c" hidden="false"/>
+    <rule name="Trust in the Lord" id="1067-b2c3-f56f-538c" hidden="false">
+      <description>Suppression markers are removed following a resolved charge as a defender.</description>
+    </rule>
+    <rule name="Martyr Complex" id="69d8-a625-e8e8-8b25" hidden="false">
+      <description>Units gain a +1 morale bonus when within 6&quot; of an enemy model.</description>
+    </rule>
+    <rule name="Rural Idyllism" id="0520-5e08-6791-02a5" hidden="false">
+      <description>Must bring an Inexperienced Cavalry Squad unit at no extra cost.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
