@@ -405,7 +405,7 @@
         </selectionEntry>
         <selectionEntry id="7728-d5d6-53b3-523b" name="National Socialist League" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="ecb0-77a8-a946-55c3" name="Steel Pact" hidden="false" targetId="6f76-6aa2-af60-7de8" type="rule"/>
+            <infoLink id="ecb0-77a8-a946-55c3" name="Reinforcement: Nazi Germany" hidden="false" targetId="99bd-342e-414b-6aff" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -421,7 +421,7 @@
         </selectionEntry>
         <selectionEntry id="1617-fa50-cf3b-72c3" name="Provisional Government/Metropolitan Police" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="70d3-a2c3-6aa2-75ff" name="Dedicated Leadership" hidden="false" targetId="9a90-510c-de90-c2e1" type="rule"/>
+            <infoLink id="70d3-a2c3-6aa2-75ff" name="City Defenders" hidden="false" targetId="f287-24f8-b6ad-413d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>

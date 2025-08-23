@@ -41,16 +41,13 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule name="Mediterranean Assistance" id="50d1-f1ee-dd08-c74c" hidden="false" publicationId="bf11-43c1-e274-aacf">
+    <rule name="Reinforcement: Mediterranean" id="50d1-f1ee-dd08-c74c" hidden="false" publicationId="bf11-43c1-e274-aacf">
       <description>May bring one Italian or Spanish unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
     <rule name="Seized Armaments" id="54ad-d747-b833-d9db" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
       <description>All Inexperienced and Regular units gain +1 Hit for every 5 models.</description>
     </rule>
-    <rule name="Steel Pact" id="6f76-6aa2-af60-7de8" hidden="false" publicationId="1eb7-b90e-f404-fa9a">
-      <description>May bring one German unit. That unit exclusively follows its own armies rules and point costs.</description>
-    </rule>
-    <rule name="Tsarist Émigrés" id="3a9f-3243-11c6-9892" hidden="false" publicationId="bf11-43c1-e274-aacf">
+    <rule name="Reinforcement: Tsarist Russia" id="3a9f-3243-11c6-9892" hidden="false" publicationId="bf11-43c1-e274-aacf">
       <description>May bring one White Russian (Soviet Union) unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
     <rule name="Auxiliary Constabularies" id="a20c-fa8e-25f7-8357" hidden="false" publicationId="bf11-43c1-e274-aacf">
@@ -74,6 +71,69 @@
     </rule>
     <rule name="Rural Idyllism" id="0520-5e08-6791-02a5" hidden="false">
       <description>Must bring an Inexperienced Cavalry Squad unit at no extra cost.</description>
+    </rule>
+    <rule name="A Divided Army" id="0945-6617-cd18-a7bf" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>Roll a D6 at the start of the game and after deployment. On a 3 or lower, your opponent may choose to put one of your units in to reserve. You may bring them out of reserve at the start of the second turn.</description>
+    </rule>
+    <rule name="Reinforcement: Nazi Germany" id="99bd-342e-414b-6aff" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>May bring one German unit. That unit exclusively follows its own armies rules and point costs.</description>
+    </rule>
+    <rule name="Cavalry Élan" id="f2fa-6dbb-86ba-da6f" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>All Cavalry units gain an additional 3&quot; when advancing or running.</description>
+    </rule>
+    <rule name="Independent Irregulars" id="da54-54a1-bfb5-738d" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>May bring one additional Partisan Squad unit. Does not contribute to platoon Infantry limits.</description>
+    </rule>
+    <rule name="Old Guard" id="6601-e22a-8349-e305" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>Gain one additional Order die if no other player is fielding a Right Wing and Reactionary Forces army.</description>
+    </rule>
+    <rule name="Reactionary Elements" id="0677-cd24-347c-2bac" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>Gain one additional Order die if another player is fielding a Right Wing and Reactionary Forces army.</description>
+    </rule>
+    <rule name="Royal Corps of Signals" id="4b9c-fd31-f865-6f51" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
+      <description>You may, at the start of the game and after deployment, move all units up to 3&quot; toward any opponent.</description>
+    </rule>
+    <rule name="&quot;Pack it in, lads!&quot;" id="854d-081c-265c-0b82" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
+      <description>All Vehicle units with transport capability gain an additional 2 model capacity.</description>
+    </rule>
+    <rule name="Reinforcement: Canada" id="acc3-5098-3708-9c38" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>May bring one Canadian unit. That unit exclusively follows its own armies rules and point costs.</description>
+    </rule>
+    <rule name="City Defenders" id="f287-24f8-b6ad-413d" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
+      <description>All units gain an additional +1 to Hard Cover if they did not advance or run during the last game turn. Must be in Hard Cover to benefit from this.</description>
+    </rule>
+    <rule name="Confectionary Surplus" id="2170-37ac-2477-da93" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
+      <description>Rally orders gain an additional +1 when rolled for.</description>
+    </rule>
+    <rule name="Naval Engineering" id="20d3-d400-cfcd-735c" hidden="false" publicationId="bf11-43c1-e274-aacf">
+      <description>When a Vehicle unit is Immobilised, you may elect for it to instead be treated as a Crew Stunned result.</description>
+    </rule>
+    <rule name="York Artillery Corps" id="a14b-a78e-6357-820a" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
+      <description>You may re-roll to Hit die of 1’s when firing Artillery units.</description>
+    </rule>
+    <rule name="Common Struggle" id="2992-a3d2-423e-fe05" hidden="false">
+      <description>When a unit targets a British Union of Fascists (BUF) or Royalist unit, it gains a +1 bonus to its roll to Hit.</description>
+    </rule>
+    <rule name="Defensive Tactics" id="59e3-c929-b74f-c20d" hidden="false">
+      <description>Infantry units gain an extra Hit die if they did not run or advance during the last turn.</description>
+    </rule>
+    <rule name="Lay of the Land" id="43e0-9b61-d228-2f62" hidden="false">
+      <description>Units within this platoon do not suffer the -1 penalty when attempting to arrive on the table as a reserve unit.</description>
+    </rule>
+    <rule name="Party Oversight" id="1fb7-9d61-0640-16f6" hidden="false">
+      <description>The platoon may include a Commissar unit at no points cost.</description>
+    </rule>
+    <rule name="Poorly Equipped" id="9e34-27ae-a25a-b662" hidden="false">
+      <description>All Vehicle and Artillery units may only be taken at Inexperienced quality.</description>
+    </rule>
+    <rule name="Reckless Assault" id="b121-3238-e460-350a" hidden="false">
+      <description>Infantry units gain an extra Hit die if they advanced during the last turn.</description>
+    </rule>
+    <rule name="Solidarity" id="56cc-014e-acf6-b913" hidden="false">
+      <description>The platoon may include one additional Partisan Squad unit. This unit does not count towards the platoon&apos;s infantry unit limit.</description>
+    </rule>
+    <rule name="Reinforcement: Soviet Union" id="94ee-bfa8-155e-0322" hidden="false">
+      <description>May bring one Soviet Union unit. That unit exclusively follows its own armies rules and point costs.</description>
     </rule>
   </sharedRules>
 </catalogue>
