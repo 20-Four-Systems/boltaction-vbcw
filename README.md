@@ -8,14 +8,11 @@ BattleScribe data files for playing *A Very British Civil War* in Bolt Action.
 
 ### Armies
 
-| Right Wing and Reactionary Forces |
-| --- | --- | --- |
-
-| Army Faction | Faction Traits | Version |
-| --- | --- | --- |
-| Right Wing and Reactionary Forces |
-| The Royalist Armies of King Edward VIII |
-| Albertines and Yorkists |
-| Anglican League |
-| Peoples Armies |
-| Scottish Republic |
+| **Army Name** | **Root Army Rules** |
+| --- | --- |
+| **Right Wing and Reactionary Forces** | `Auxilliary Constabularies`, `Industrial Mobilisation` |
+| **The Royalist Armies of King Edward VIII** | `A Divided Army`, `Royal Corps of Signals` |
+| **Albertines and Yorkists** | `A Divided Army`, `York Artillery Corps` |
+| **Peoples Armies** | `Common Sturggle`, `Poorly Equipped` |
+| *Anglican League* | TBA |
+| *Scottish Republic* | TBA |
