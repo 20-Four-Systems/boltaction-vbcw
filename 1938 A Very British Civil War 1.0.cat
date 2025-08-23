@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e86-d4b4-7e2e-5eab" name="1938 A Very British Civil War 1.0" revision="2" battleScribeVersion="2.03" authorName="KabelKabal" library="true" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5e86-d4b4-7e2e-5eab" name="1938 A Very British Civil War 1.0" revision="3" battleScribeVersion="2.03" authorName="KabelKabal" library="true" gameSystemId="d373-d979-116c-5487" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="bf11-43c1-e274-aacf" name="1938 A Very British Civil War - The Concise Source Book"/>
     <publication id="d408-e2c7-f6fd-7fac" name="KabelKabal&apos;s Bolt Action AVBCW - A Complete Timeline" shortName="KK&apos;s Bolt Action AVBCW - A Complete Timeline" publisher="GitHub" publisherUrl="https://github.com/KabelKabal/boltaction-vbcw"/>
@@ -57,7 +57,7 @@
       <description>You must bring at least one Partisan Squad unit.</description>
     </rule>
     <rule name="Fanatic Vanguard" id="a080-24b7-553b-398b" hidden="false" publicationId="d408-e2c7-f6fd-7fac">
-      <description>All Regular and Veteran units gain the Fanatics special rule.</description>
+      <description>All Veteran units gain the Fanatics special rule.</description>
     </rule>
     <rule name="Industrial Mobilisation" id="75cf-1cbf-1bf4-1799" hidden="false" publicationId="bf11-43c1-e274-aacf">
       <description>All Vehicle units gain an additional 3&quot; when advancing or running.</description>
